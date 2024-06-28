@@ -13,6 +13,9 @@ const AddTodo = () => {
     setInput("");
   };
 
+
+  const suthar = 10
+
   return (
     <div>
       <form onSubmit={addTodohandler} className="space-x-3 mt-12">
